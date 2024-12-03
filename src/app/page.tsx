@@ -4,6 +4,7 @@ import { Hero } from '@/components/Hero'
 import { Careerline } from '@/components/Timeline'
 import { Projects } from '@/components/Projects'
 import { Skills } from '@/components/Skills'
+import { Footer } from '@/components/Footer'
 
 export default function page() {
   return (
@@ -13,6 +14,7 @@ export default function page() {
    <Careerline/>
    <Projects/>
     <Skills/>
+    <Footer/>
     </main>
  
   )

@@ -1,17 +1,13 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "unsplash.com",
-        port: "", // Leave empty if not applicable
-        pathname: "/**", // Match all paths on this domain
-      },
+    domains: [
+      "cdn.jsdelivr.net", // For DevIcons images
+      "upload.wikimedia.org", // For Canva logo
+      "i.pinimg.com", // Pinterest images (primary CDN for pins)
+      "in.pinterest.com"
     ],
   },
-  /* other config options */
 };
 
-export default nextConfig;
+module.exports = nextConfig;

@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { Timeline } from "./ui/timeline";
 
+
 export function Careerline() {
   const data = [
     {
@@ -113,6 +114,7 @@ export function Careerline() {
   return (
     <div className="w-full bg-black">
       <Timeline data={data} />
+      
     </div>
   );
 }

@@ -5,6 +5,7 @@ import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import Image from "next/image"
 import Link from 'next/link';
 
+
 interface project{
   title:string,
   description:string,
@@ -16,6 +17,7 @@ export const Projects = () => {
   return (
     <div className="min-h-screen bg-black py-12 pt-36">
       <h2 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">Projects</h2>
+      
       <div className="flex flex-wrap justify-center">
           {projectsData.projects.map((project:project)=>(
                   <CardContainer  className="inter-var px-4" key={project.title}>
@@ -60,11 +62,15 @@ export const Projects = () => {
                       >
                         Github
                       </CardItem>
+                           
                     </div>
                   </CardBody>
-                </CardContainer>                
+                </CardContainer> 
+                        
           ))}
+               
       </div>
+          
     </div>
   )
 }
