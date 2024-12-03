@@ -1,0 +1,26 @@
+{
+    "projects":[
+        {
+            "title":"Nasa Mission Control Backend",
+            "description":"Built with MERN stack, use to fetch list of habitable planets and schedule a rocket launch",
+            "image":"/images/project1.PNG",
+            "github":"https://github.com/Koustavjr/nasa-project",
+            "deploy":"https://nasa-project-frontend-pmwo.onrender.com/"
+        },
+        {
+            "title":"MediaMorph",
+            "description":"Built with NextJS, Clerk,Cloudinary and NeonDB. A SAAS use to upload image and resize for social media post and compress YouTube Videos",
+            "image":"/images/project2.PNG",
+            "github":"https://github.com/Koustavjr/MediaMorph",
+            "deploy":"https://media-morph-lovat.vercel.app/"
+        },
+        {
+            "title":"BloodSphere",
+            "description":"A telegram bot that tells people hospitals near them accourding to the blood they want to donate or recieve.",
+            "image":"/images/project3.PNG",
+            "github":"https://github.com/Koustavjr/Blood-Sphere",
+            "deploy":"https://blood-sphere.vercel.app/"
+        }
+        
+    ]
+}
