@@ -13,6 +13,8 @@ interface project{
   github:string,
   deploy:string
 }
+
+
 export const Projects = () => {
   return (
     <div className="min-h-screen bg-black py-12 pt-36">

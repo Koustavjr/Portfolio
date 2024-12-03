@@ -3,6 +3,7 @@ import React from "react";
 import { Vortex } from "./ui/vortex";
 import { Typewriter } from "./typewriter";
 export function Hero() {
+  
   return (
     <div className="w-[calc(100%-4rem)] mx-auto rounded-md  h-screen overflow-hidden">
       <Vortex
