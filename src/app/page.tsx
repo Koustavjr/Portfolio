@@ -5,6 +5,7 @@ import { Careerline } from '@/components/Timeline'
 import { Projects } from '@/components/Projects'
 import { Skills } from '@/components/Skills'
 import { Footer } from '@/components/Footer'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function page() {
   return (
@@ -15,6 +16,7 @@ export default function page() {
    <Projects/>
     <Skills/>
     <Footer/>
+    <SpeedInsights/>
     </main>
  
   )
