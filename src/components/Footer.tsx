@@ -7,7 +7,7 @@ export function Footer() {
     <div className=" py-40 dark:bg-black bg-white w-full">
       <div className="max-w-7xl mx-auto text-center">
         <p className="font-bold text-xl md:text-4xl dark:text-white text-black">
-          Lets{" "}
+          Let&apos;s{" "}
           <span className="text-neutral-400">
             {"Connect".split("").map((word, idx) => (
               <motion.span
