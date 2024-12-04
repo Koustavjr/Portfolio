@@ -15,10 +15,11 @@ interface project{
 }
 
 
+
 export const Projects = () => {
   return (
     <div className="min-h-screen bg-black py-12 pt-36">
-      <h2 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">Projects</h2>
+      <h2 className="text-4xl md:text-4xl lg:text-7xl text-center font-sans font-bold mb-6 text-white">Projects</h2>
       
       <div className="flex flex-wrap justify-center">
           {projectsData.projects.map((project:project)=>(

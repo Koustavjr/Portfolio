@@ -83,9 +83,9 @@ const skills = [
 export function Skills() {
   return (
     <div className="relative h-[20rem] overflow-hidden">
-        <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center">Skills</h2>
+        <h2 className="text-4xl md:text-4xl lg:text-7xl text-white font-bold text-center">Skills</h2>
        
-     <div className="flex flex-row items-center justify-center mb-6 w-full">
+     <div className="flex flex-row items-center justify-center mt-6 w-full">
         <AnimatedTooltip items={skills}/>
        <BackgroundBeams/>
     </div>
