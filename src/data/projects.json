@@ -20,6 +20,13 @@
             "image":"/images/project3.PNG",
             "github":"https://github.com/Koustavjr/Blood-Sphere",
             "deploy":"https://blood-sphere.vercel.app/"
+        },
+        {
+            "title":"KrishiSamarth",
+            "description":"Built with React, Wordpress and Firebase, a goto B2B market place for farmers.",
+            "image":"/images/KrishiSamarth_SS.png",
+            "github":"https://github.com/Koustavjr/Krishi-Samarth",
+            "deploy":"https://krishi-samarth.vercel.app/"
         }
         
     ]
