@@ -2,7 +2,7 @@
     "projects":[
         {
             "title":"Nasa Mission Control Backend",
-            "description":"Built with MERN stack, use to fetch list of habitable planets and schedule a rocket launch",
+            "description":"Built with MERN stack, use to show list of habitable planets and schedule a rocket launch",
             "image":"/images/project1.PNG",
             "github":"https://github.com/Koustavjr/nasa-project",
             "deploy":"https://nasa-project-frontend-pmwo.onrender.com/"
