@@ -3,14 +3,14 @@
         {
             "title": "Authify Backend",
             "description": "Built with ExpressJS, MongoDB and JWT. A backend for authentication and authorization with role based access control.",
-            "image": "/images/project1-.PNG",
+            "image": "/images/project1-.png",
             "github": "https://github.com/Koustavjr/Authify",
             "deploy": "https://documenter.getpostman.com/view/28425740/2sB2cPkRGu"
         },
         {
             "title": "Template Registry Backend",
             "description": "A Registry for integrating most common backend services into your project and UI Components. Also get custom AI generated componet",
-            "image": "/images/project2-.PNG",
+            "image": "/images/project2-.png",
             "github": "https://github.com/Koustavjr/template-component-project-backend",
             "deploy": "https://media-morph-lovat.vercel.app/"
         },
@@ -24,7 +24,7 @@
         {
             "title": "Food Delivery App UI",
             "description": "Build with Expo and React Navigation and used Zustand and Async Storage for state management.",
-            "image": "/images/project4-.PNG",
+            "image": "/images/project4-.png",
             "github": "https://github.com/Koustavjr/Food-Delivery-App-expo",
             "deploy": "https://www.youtube.com/watch?v=oahM2siv-Bw&feature=youtu.be"
         }
