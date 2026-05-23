@@ -3,7 +3,7 @@ import React from "react";
 import { FloatingNav } from "./ui/floating-navbar";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 export function Navbar() {
-  
+
   const navItems = [
     {
       name: "Blogs",
@@ -12,7 +12,7 @@ export function Navbar() {
     },
     {
       name: "Resume",
-      link: "https://drive.google.com/file/d/1EQ8qhYWflp7VzFa5MWxPv98VIJq_g3sQ/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1dBv9q3CXFaDXtTqLaD1DS4IU5S06g_kC/view?usp=drive_link",
       icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
@@ -25,8 +25,8 @@ export function Navbar() {
   ];
   return (
     <div className="relative  w-full">
-      <FloatingNav navItems={navItems}/>
-      
+      <FloatingNav navItems={navItems} />
+
     </div>
   );
 }

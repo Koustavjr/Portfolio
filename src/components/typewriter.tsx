@@ -5,22 +5,22 @@ export function Typewriter() {
   const words = [
     {
       text: "I am a",
-      className:"text-lg"
-    
+      className: "text-lg"
+
     },
     {
-      text: "MERN stack",
+      text: "Software",
       className: "text-xl md:text-4xl lg:text-5xl text-blue-500 dark:text-blue-500",
     },
     {
-      text: "Developer",
-      className:"text-lg md:text-xl lg:text-2xl"
+      text: "Engineer",
+      className: "text-lg md:text-xl lg:text-2xl"
     },
-   
+
   ];
-  const word2=[ {
+  const word2 = [{
     text: "And a",
-   className:"text-lg md:text-xl lg-text-2xl"
+    className: "text-lg md:text-xl lg-text-2xl"
   },
   {
     text: "Content Writer.",

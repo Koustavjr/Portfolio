@@ -1,33 +1,32 @@
 {
-    "projects":[
+    "projects": [
         {
-            "title":"Nasa Mission Control Backend",
-            "description":"Built with MERN stack, use to show list of habitable planets and schedule a rocket launch",
-            "image":"/images/project1.PNG",
-            "github":"https://github.com/Koustavjr/nasa-project",
-            "deploy":"https://nasa-project-frontend-pmwo.onrender.com/"
+            "title": "Authify Backend",
+            "description": "Built with ExpressJS, MongoDB and JWT. A backend for authentication and authorization with role based access control.",
+            "image": "/images/project1-.PNG",
+            "github": "https://github.com/Koustavjr/Authify",
+            "deploy": "https://documenter.getpostman.com/view/28425740/2sB2cPkRGu"
         },
         {
-            "title":"MediaMorph",
-            "description":"Built with NextJS, Clerk,Cloudinary and NeonDB. A SAAS use to upload image and resize for social media post and compress YouTube Videos",
-            "image":"/images/project2.PNG",
-            "github":"https://github.com/Koustavjr/MediaMorph",
-            "deploy":"https://media-morph-lovat.vercel.app/"
+            "title": "Template Registry Backend",
+            "description": "A Registry for integrating most common backend services into your project and UI Components. Also get custom AI generated componet",
+            "image": "/images/project2-.PNG",
+            "github": "https://github.com/Koustavjr/template-component-project-backend",
+            "deploy": "https://media-morph-lovat.vercel.app/"
         },
         {
-            "title":"BloodSphere",
-            "description":"A telegram bot that tells people hospitals near them accourding to the blood they want to donate or recieve.",
-            "image":"/images/project3.PNG",
-            "github":"https://github.com/Koustavjr/Blood-Sphere",
-            "deploy":"https://blood-sphere.vercel.app/"
+            "title": "BloodSphere",
+            "description": "A telegram bot that tells people hospitals near them accourding to the blood they want to donate or recieve.",
+            "image": "/images/project3.PNG",
+            "github": "https://github.com/Koustavjr/Blood-Sphere",
+            "deploy": "https://blood-sphere.vercel.app/"
         },
         {
-            "title":"KrishiSamarth",
-            "description":"Built with React, Wordpress and Firebase, a goto B2B market place for farmers.",
-            "image":"/images/KrishiSamarth_SS.png",
-            "github":"https://github.com/Koustavjr/Krishi-Samarth",
-            "deploy":"https://krishi-samarth.vercel.app/"
+            "title": "Food Delivery App UI",
+            "description": "Build with Expo and React Navigation and used Zustand and Async Storage for state management.",
+            "image": "/images/project4-.PNG",
+            "github": "https://github.com/Koustavjr/Food-Delivery-App-expo",
+            "deploy": "https://www.youtube.com/watch?v=oahM2siv-Bw&feature=youtu.be"
         }
-        
     ]
 }

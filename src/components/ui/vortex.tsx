@@ -83,7 +83,7 @@ export const Vortex = (props: VortexProps) => {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    let x=0, y=0, vx=0, vy=0, life=0, ttl=0, speed=0, radius=0, hue=0;
+    let x = 0, y = 0, vx = 0, vy = 0, life = 0, ttl = 0, speed = 0, radius = 0, hue = 0;
 
     x = rand(canvas.width);
     y = center[1] + randRange(rangeY);
@@ -131,7 +131,7 @@ export const Vortex = (props: VortexProps) => {
       i7 = 6 + i,
       i8 = 7 + i,
       i9 = 8 + i;
-    let n=0, x=0, y=0, vx=0, vy=0, life=0, ttl=0, speed=0, x2=0, y2=0, radius=0, hue=0;
+    let n = 0, x = 0, y = 0, vx = 0, vy = 0, life = 0, ttl = 0, speed = 0, x2 = 0, y2 = 0, radius = 0, hue = 0;
 
     x = particleProps[i];
     y = particleProps[i2];
@@ -156,7 +156,7 @@ export const Vortex = (props: VortexProps) => {
     particleProps[i4] = vy;
     particleProps[i5] = life;
 
-    if((checkBounds(x, y, canvas) || life > ttl))  initParticle(i);
+    if ((checkBounds(x, y, canvas) || life > ttl)) initParticle(i);
   };
 
   const drawParticle = (
